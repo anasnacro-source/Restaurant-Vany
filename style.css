@@ -85,3 +85,125 @@ footer{padding:36px 0 110px;color:var(--muted);font-size:14px;text-align:center}
   *,*::before,*::after{animation:none!important;transition:none!important}
   .js .rv{opacity:1;transform:none}
 }
+
+/* Conteneur principal */
+
+.wrap {
+
+    max-width: 1100px;
+
+    margin: 0 auto;
+
+    padding: 0 24px;
+
+}
+
+/* Corps de la page */
+
+body {
+
+    font-size: 17px;
+
+    line-height: 1.7;
+
+    letter-spacing: 0.2px;
+
+}
+
+/* Titres des sections */
+
+h2 {
+
+    font-size: clamp(26px, 4vw, 36px);
+
+    letter-spacing: -0.5px;
+
+    margin-bottom: 14px;
+
+}
+
+/* Section principale */
+
+section {
+
+    padding: 65px 0 20px;
+
+}
+
+/* Boutons */
+
+.btn {
+
+    padding: 15px 28px;
+
+    font-weight: 800;
+
+    transition: all 0.25s ease;
+
+}
+
+.btn.main:hover {
+
+    transform: translateY(-4px);
+
+    box-shadow: 0 10px 22px rgba(183, 36, 43, 0.22);
+
+}
+
+/* Bloc informations */
+
+.info {
+
+    border-radius: 18px;
+
+    padding: 26px;
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+
+}
+
+/* Menu */
+
+.menu li {
+
+    padding: 18px 8px;
+
+    transition: background 0.2s ease;
+
+}
+
+.menu li:hover {
+
+    background: var(--panel);
+
+    border-radius: 10px;
+
+}
+
+/* Adaptation mobile */
+
+@media (max-width: 600px) {
+
+    .wrap {
+
+        padding: 0 16px;
+
+    }
+
+    section {
+
+        padding: 42px 0 15px;
+
+    }
+
+    .hero {
+
+        padding-top: 35px;
+
+    }
+
+    .info {
+
+        padding: 20px;
+
+ 
